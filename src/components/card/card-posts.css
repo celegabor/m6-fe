@@ -1,0 +1,113 @@
+.user-detail{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background-color:rgba(9, 9, 83, 0.50);
+    filter: drop-shadow(0 0 10px white);
+    color: white;
+    padding: 1.5em;
+    width: 110%;
+    height: 110%;
+    z-index: 11;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid black;
+    min-width: 250px;
+}
+
+.user-details{
+    height: 120%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.user-details p{
+    background-color: rgba(0, 0, 0);
+    padding: 0.3em 1em;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    filter: drop-shadow(0 0 10px black);
+    overflow: scroll;
+}
+
+.user-detail img{
+    padding: 0.2em;
+    background-color: black;
+    height: 40%;
+    width: 100%;
+    border: 7px double white;
+    filter: drop-shadow(0 0 8px black);
+    margin-bottom: 15px;
+    object-fit: contain;
+}
+
+.button-details-user-out, .button-details-user-in{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    filter: drop-shadow(0 0 5px blue);
+}
+.button-details-user-out{
+    z-index: 10;
+}
+.button-details-user-in{
+    z-index: 12;
+}
+
+.not-user{
+    background-color: black;
+    color: red;
+    border: 10px double rgb(225, 30, 30);
+    filter: grayscale(0.4);
+    width: 100%;
+    padding: 2em;
+    font-size: 1.2em;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.img-comments{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid white;
+    object-fit: cover;
+}
+
+.comments-section{
+    width: 100%;
+}
+
+.comment{
+    background-color: black;
+    padding: 0.5em;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.commento{
+    padding: 0.3em 2em;
+    width: 50%;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.button{
+    position: absolute;
+    right: 0;
+} 
+
+.input-add-custom{
+    width: 100%;
+    padding: 0.5em;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid white;
+}
